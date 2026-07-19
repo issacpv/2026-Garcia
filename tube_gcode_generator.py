@@ -76,7 +76,7 @@ def main():
     # keep the filename tidy: 24.0 -> "24", 24.5 -> "24.5"
     dia_str = f"{diameter:g}"
 
-    filename = f"C:\\Users\\issac\\Desktop\\2026-Garcia\\!tube{dia_str}x{layers}({cure_seconds}s).pp.gcode"
+    filename = f"C:\\***\\!tube{dia_str}x{layers}({cure_seconds}s).pp.gcode"
     out_path = filename                     # current folder (for testing)
     # out_path = "D:\\" + filename          # thumb drive (use this for the printer)
 
